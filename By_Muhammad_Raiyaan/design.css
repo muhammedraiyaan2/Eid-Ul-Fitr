@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+.title{
+ font-size: 3rem;
+ font-family: 'Ubuntu', sans-serif;
+ animation-name: title;
+ animation-duration:3.5s;
+ animation-iteration-count: infinite;
+}
+@keyframes title {
+ from{
+  color: blue;
+ }
+ 30%{
+  margin-top: 35rem;
+  margin-left: 28rem;
+ }
+ 60%{
+  margin-top: 18rem;
+  color: green;
+  margin-left: 28rem;
+ }
+ to{
+  margin-top: 18rem;
+  color: green;
+  margin-left: 28rem;
+ }
+}
+body{
+ background: #F5F5F5;
+ overflow: hidden;
+}
+.photo1{
+ height: 40em;
+ margin-left: 15rem;
+ animation-name: photo1;
+ animation-duration: 5s;
+ animation-iteration-count: infinite;
+}
+@keyframes photo1 {
+ 25%{
+  margin-top:0em;
+  margin-left:0em;
+  height: 10em;
+ }
+ 50%{
+  margin-top:30rem;
+  margin-left:0rem;
+  height: 10em;
+
+ }
+ 75%{
+  margin-top:30rem;
+  margin-left:60rem;
+  height: 10em;
+
+ }
+ 85%{
+  margin-top:0em;
+  margin-left: 60rem;
+  height: 10em;
+ }
+}
+.photo2{
+ height: 30em;
+ margin-left: 15rem;
+ animation-name: photo2;
+ animation-duration: 2.6s;
+ animation-iteration-count: infinite;
+}
+@keyframes photo2 {
+ from{
+  margin-top: 5em;
+  margin-left: 0em;
+  transform: rotate(0deg)
+ }
+ 75%{
+  margin-top: 5em;
+  margin-left: 20em;
+  transform: rotate(360deg)
+ }
+ 100%{
+  margin-top: 5em;
+  margin-left: 20em;
+  transform: rotate(360deg)
+ }
+}
+*{
+ margin:0;
+}
+.photo3{
+ height: 1em;
+ animation-name: photo3;
+ animation-duration: 8s;
+ animation-iteration-count: infinite;
+}
+@keyframes photo3 {
+ from{
+  height: 1em;
+ }
+ 20%{
+  height: 44em;
+ }
+ to{
+  height: 44em;
+ }
+}
